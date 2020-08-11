@@ -4,17 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F80707"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/winningbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.443"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.396" />
+        android:background="@android:color/white"
+        android:text=" Winning Screenshots "
+        android:textColor="#F80707"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="139dp" />
 
+    <Button
+        android:id="@+id/gobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:text="Go"
+        android:textColor="#F80707"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <Button
+        android:id="@+id/glbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:text="GL Teams"
+        android:textColor="#F80707"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="341dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
