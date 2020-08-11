@@ -16,16 +16,10 @@ public class teams extends AppCompatActivity {
         setContentView(R.layout.activity_teams);
 
         webView1=(WebView)findViewById(R.id.teamsview);
-
         webView1.setWebViewClient(new WebViewClient());
         webView1.loadUrl("http://starteam.unaux.com");
-
         WebSettings webSettings = webView1.getSettings();
         webSettings.setJavaScriptEnabled(true);
-
-
-
-
 
     }
 

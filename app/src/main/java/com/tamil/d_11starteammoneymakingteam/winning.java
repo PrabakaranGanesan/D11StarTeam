@@ -18,8 +18,6 @@ public class winning extends AppCompatActivity {
         webView2=(WebView)findViewById(R.id.winningview);
         webView2.setWebViewClient(new WebViewClient());
         webView2.loadUrl("http://starteam.unaux.com/winning-screenshots/");
-
-
         WebSettings webSettings = webView2.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }
